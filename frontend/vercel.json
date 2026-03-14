@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/presets/:path*",
-      "destination": "http://102.203.200.40:8000/presets/:path*"
+      "source": "/presets",
+      "destination": "http://102.203.200.40:8000/presets"
+    },
+    {
+      "source": "/presets/:path+",
+      "destination": "http://102.203.200.40:8000/presets/:path+"
     },
     {
       "source": "/transform",
