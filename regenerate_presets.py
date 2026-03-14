@@ -60,7 +60,7 @@ def process_presets():
     target_img = target_img.resize((sidelen, sidelen), Image.LANCZOS)
     target_data = np.array(target_img).reshape(-1, 3).astype(np.float32)
     
-    presets = ["colorful", "shrek", "Eiffel", "code"]
+    presets = ["colorful", "shrek", "Eiffel", "pepe"]
     base_dir = "d:/AppPerWeek/tammat/transformify_web/presets"
     
     for preset in presets:
