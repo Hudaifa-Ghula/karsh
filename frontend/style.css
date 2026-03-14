@@ -89,6 +89,37 @@ canvas {
     padding: 0 2rem;
 }
 
+.integrated-settings {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.integrated-settings .settings-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.integrated-settings label {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.integrated-settings button {
+    flex-basis: 100px;
+    height: 48px;
+    margin-top: auto;
+}
+
+.integrated-settings input[type=range] {
+    margin-top: 0.5rem;
+}
+
 .sidebar {
     display: flex;
     flex-direction: column;
